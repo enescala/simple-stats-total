@@ -1,0 +1,47 @@
+body {
+  background-color: #f1f1f1;
+}
+a {
+  color: #333;
+}
+a:hover {
+  color: #0073aa;
+}
+a:focus {
+  box-shadow: none;
+  outline: none;
+}
+.nav-pills .nav-link {
+  font-size: 1em;
+  border-radius: 0;
+}
+@media (max-width: 767px) {
+  .nav-pills .nav-link {
+    font-size: 0.8em;
+    padding: 5px;
+  }
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background: #eee;
+  border-left: 4px solid #00adff;
+  color: #0073aa;
+}
+.tab-content > .tab-pane {
+  font-family: monospace, sans-serif;
+  font-size: 14px;
+}
+.table {
+  background: #eee;
+}
+.table td {
+  border-color: #dedede;
+}
+.table thead th {
+  font-weight: normal;
+  background-color: rgba(20, 54, 62, 0.03);
+  padding-bottom: 6px;
+  border: none;
+}
+.table-hover tbody tr:hover {
+  background-color: rgba(20, 54, 62, 0.03);
+}
